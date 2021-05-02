@@ -1,0 +1,26 @@
+{
+  "name": "cypress-homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sadorus/cypress-homework.git"
+  },
+  "keywords": [
+    "Cypress",
+    "JS"
+  ],
+  "author": "Mateusz Błoch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sadorus/cypress-homework/issues"
+  },
+  "homepage": "https://github.com/Sadorus/cypress-homework#readme",
+  "devDependencies": {
+    "cypress": "^7.2.0"
+  }
+}
