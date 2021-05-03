@@ -2,9 +2,9 @@
 ## Setup
 
 ```bash
-$ Clone the repository
+Clone the repository
 $ cd ../cypress-homework
 $ npm install
 $ npx cypress open
-$ Run the registration.spec.js 
+Run the registration.spec.js 
 ```
