@@ -7,7 +7,7 @@ describe('Registration form', () => {
 
         cy.get(selectors.signUpButton).click()
       })
-    it('Register new user using incorrect email address', () => {
+    it('Should be unable to create an account using an incorrect email address format', () => {
 
         cy.get(selectors.emailInput).type('email')
         cy.get(selectors.passwordInput).type('password123')
@@ -17,7 +17,7 @@ describe('Registration form', () => {
         cy.get(selectors.errorLabel).should('contain', 'The email you entered is not in the correct format. Please check.')
     });
 
-    it('Register new user using using too short password', () => {
+    it('Should be unable to create an account using an too short password', () => {
 
         cy.get(selectors.emailInput).type('email@gmail.com')
         cy.get(selectors.passwordInput).type('abc123')
